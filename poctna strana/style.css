@@ -1,0 +1,8 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.slogan {
+  background-image: url(./background2.png);
+}
