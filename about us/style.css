@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+  align-items: center;
+  width: 100vh;
+  height: 125px;
+}
+
+header img {
+  width: 170px;
+  position: relative;
+  /* top: 5px; */
+  left: 150px;
+  bottom: 20px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header a {
+  text-decoration: none;
+  color: #666666;
+  margin: 20px;
+  position: relative;
+  left: 950px;
+  bottom: 115px;
+}
+
+a:hover {
+  color: #ffc0cb;
+}
+
+hr {
+  border-color: #ffc0cb;
+}

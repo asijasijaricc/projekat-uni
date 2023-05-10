@@ -42,41 +42,32 @@ hr {
   border-color: #ffc0cb;
 }
 
-.slogan {
-  /* background-color: #b7b5b5; */
+h1 {
+  font-family: "Instrument Serif", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.cenovnik {
   display: flex;
   justify-content: space-around;
-  height: 700px;
+  margin-top: 60px;
 }
 
-.slogan h1 {
-  font-family: "Instrument Serif", serif;
-  margin-top: 280px;
+.cenovnik span {
+  color: #4d4d4d;
 }
 
-span {
-  color: pink;
+.cenovnik h3 {
+  color: #ec7b8e;
 }
 
-.slogan img {
-  margin-top: 120px;
-  width: 300px;
-  border-radius: 20px;
-  margin-bottom: 120px;
+.cenovnik h3:hover {
+  color: #4d4d4d;
 }
 
-.slogan button {
-  height: 40px;
-  width: 130px;
-  margin-left: 217px;
-  border-radius: 20px;
-  border: none;
-  background-color: pink;
-  color: #666666;
-  font-weight: 600;
-}
-
-.slogan button:hover {
-  color: #ffc0cb;
-  background-color: #666666;
+h1:hover {
+  color: #ec7b8e;
 }
