@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+  align-items: center;
+  width: 100vh;
+  height: 125px;
+}
+
+header img {
+  width: 170px;
+  position: relative;
+  /* top: 5px; */
+  left: 150px;
+  bottom: 20px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header a {
+  text-decoration: none;
+  color: #4d4c4c;
+  margin: 20px;
+  position: relative;
+  left: 950px;
+  bottom: 115px;
+}
+
+.slogan {
+  /* background-color: #b7b5b5; */
+  display: flex;
+  justify-content: space-around;
+  height: 700px;
+}
+
+.slogan h1 {
+  font-family: "Instrument Serif", serif;
+  margin-top: 280px;
+}
+
+span {
+  color: pink;
+}
+
+.slogan img {
+  margin-top: 120px;
+  width: 300px;
+  border-radius: 20px;
+  margin-bottom: 120px;
+}
+
+.slogan button {
+  height: 40px;
+  width: 130px;
+  margin-left: 217px;
+  border-radius: 20px;
+  border: none;
+  background-color: pink;
+  font-weight: 600;
+}
