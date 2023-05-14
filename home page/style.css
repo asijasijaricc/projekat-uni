@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Instrument Serif", serif;
+}
+
 header {
   position: relative;
   align-items: center;
@@ -79,4 +83,43 @@ span {
 .slogan button:hover {
   color: #ffc0cb;
   background-color: #666666;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+footer img {
+  height: 150px;
+}
+
+.onama {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hours p {
+  padding-top: 8px;
+}
+
+.drustvene a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.drustvene a:hover {
+  color: #ffc0cb;
+}
+
+.fa-solid {
+  color: #ffc0cb;
+}
+
+.fa-brands {
+  color: #ffc0cb;
 }

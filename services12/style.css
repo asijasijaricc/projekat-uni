@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Instrument Serif", serif;
+}
+
 header {
   position: relative;
   align-items: center;
@@ -53,7 +57,8 @@ h1 {
 .cenovnik {
   display: flex;
   justify-content: space-around;
-  margin-top: 60px;
+  margin-top: 90px;
+  margin-bottom: 90px;
 }
 
 .cenovnik span {
@@ -64,10 +69,53 @@ h1 {
   color: #ec7b8e;
 }
 
-.cenovnik h3:hover {
-  color: #4d4d4d;
+.prvi p {
+  padding-top: 13px;
 }
 
-h1:hover {
-  color: #ec7b8e;
+.drugi p {
+  padding-top: 13px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+footer img {
+  height: 150px;
+}
+
+.hours p {
+  padding-top: 8px;
+}
+
+.onama {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.drustvene a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.drustvene a:hover {
+  color: #ffc0cb;
+}
+
+.fa-solid {
+  color: #ffc0cb;
+}
+
+.fa-brands {
+  color: #ffc0cb;
+}
+
+span {
+  color: #ffc0cb;
 }
