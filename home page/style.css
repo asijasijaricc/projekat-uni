@@ -47,7 +47,6 @@ hr {
 }
 
 .slogan {
-  /* background-color: #b7b5b5; */
   display: flex;
   justify-content: space-around;
   height: 700px;
