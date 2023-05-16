@@ -44,6 +44,77 @@ hr {
   border-color: #ffc0cb;
 }
 
+.naslov h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  /* color: #666666; */
+}
+
+.mesto {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.mesto2 {
+  width: 500px;
+  font-size: x-large;
+}
+
+.mesto img {
+  width: 700px;
+  height: 350px;
+  border-radius: 20px;
+  margin-top: 90px;
+}
+
+.naslov2 h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.mapa {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+.mapa p {
+  font-size: x-large;
+}
+
+.naslov3 h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.ja img {
+  width: 600px;
+  height: 650px;
+}
+
+.ja {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-top: 60px; */
+  margin-bottom: 60px;
+}
+
+.paragraf2 {
+  width: 600px;
+  font-size: x-large;
+}
+
 footer {
   display: flex;
   justify-content: space-evenly;
