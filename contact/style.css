@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Instrument Serif", serif;
+}
+
+header {
+  position: relative;
+  align-items: center;
+  width: 100vh;
+  height: 125px;
+}
+
+header img {
+  width: 170px;
+  position: relative;
+  /* top: 5px; */
+  left: 150px;
+  bottom: 20px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header a {
+  text-decoration: none;
+  color: #666666;
+  margin: 20px;
+  position: relative;
+  left: 950px;
+  bottom: 115px;
+}
+
+a:hover {
+  color: #ffc0cb;
+}
+
+hr {
+  border-color: #ffc0cb;
+}
+
+.kontaktirajte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: x-large;
+  margin-top: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 90px;
+  margin-bottom: 88px;
+}
+
+.card1 {
+  background-color: #b8b8b8;
+  border-radius: 20px;
+  width: 350px;
+  height: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: 200ms transform ease-in-out;
+}
+
+.card1:hover {
+  transform: scale(1.1);
+}
+
+.fa-location-dot {
+  background-color: #9b9a9a;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.card2 {
+  background-color: #b8b8b8;
+  border-radius: 20px;
+  width: 390px;
+  height: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: 200ms transform ease-in-out;
+}
+
+.card2:hover {
+  transform: scale(1.1);
+}
+
+.fa-envelope {
+  color: #ffc0cb;
+  background-color: #9b9a9a;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.card3 {
+  background-color: #b8b8b8;
+  border-radius: 20px;
+  width: 350px;
+  height: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: 200ms transform ease-in-out;
+}
+
+.card3:hover {
+  transform: scale(1.1);
+}
+
+.telefon {
+  background-color: #9b9a9a;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  /* margin-bottom: 70px; */
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+footer img {
+  height: 150px;
+}
+
+.hours p {
+  padding-top: 8px;
+}
+
+.drustvene a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.onama {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.drustvene a:hover {
+  color: #ffc0cb;
+}
+
+.fa-solid {
+  color: #ffc0cb;
+}
+
+.fa-brands {
+  color: #ffc0cb;
+}
+
+span {
+  color: #ffc0cb;
+}
