@@ -46,36 +46,59 @@ hr {
   border-color: #ffc0cb;
 }
 
-h1 {
-  font-family: "Instrument Serif", serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 60px;
-}
-
-.cenovnik {
+.zakazi {
+  /* position: relative; */
   display: flex;
   justify-content: space-around;
-  margin-top: 90px;
-  margin-bottom: 90px;
-  font-size: larger;
+  align-items: center;
+  /* height: 600px; */
 }
 
-.cenovnik span {
-  color: #4d4d4d;
+.slike {
+  position: relative;
 }
 
-.cenovnik h3 {
-  color: #ec7b8e;
+.slike img {
+  width: 250px;
+  /* height: 300px; */
+  border-radius: 20px;
 }
 
-.prvi p {
-  padding-top: 13px;
+.slika1 {
+  position: absolute;
+  margin-top: 70px;
 }
 
-.drugi p {
-  padding-top: 13px;
+.slika2 {
+  margin-left: 200px;
+  margin-top: 350px;
+  /* z-index: 9; */
+  margin-bottom: 70px;
+}
+
+.buking {
+  font-size: x-large;
+}
+
+.buking p {
+  padding-top: 7px;
+  padding-bottom: 24px;
+}
+
+.zakazi button {
+  height: 40px;
+  width: 130px;
+  /* margin-left: 217px; */
+  border-radius: 20px;
+  border: none;
+  background-color: pink;
+  color: #666666;
+  font-weight: 600;
+}
+
+.zakazi button:hover {
+  color: #ffc0cb;
+  background-color: #666666;
 }
 
 footer {
