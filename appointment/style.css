@@ -77,12 +77,16 @@ hr {
 }
 
 .buking {
-  font-size: x-large;
+  font-size: xx-large;
 }
 
 .buking p {
   padding-top: 7px;
   padding-bottom: 24px;
+}
+
+.buking h3 {
+  color: #ffc0cb;
 }
 
 .zakazi button {

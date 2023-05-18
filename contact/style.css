@@ -55,6 +55,10 @@ hr {
   margin-top: 30px;
 }
 
+.kontaktirajte h1 {
+  color: #ffc0cb;
+}
+
 .cards {
   display: flex;
   justify-content: space-around;

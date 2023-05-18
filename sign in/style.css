@@ -19,6 +19,7 @@ header {
 header img {
   width: 170px;
   position: relative;
+  /* top: 5px; */
   left: 150px;
   bottom: 20px;
 }
@@ -45,81 +46,60 @@ hr {
   border-color: #ffc0cb;
 }
 
-.naslov {
+.proba {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  font-size: x-large;
-  margin-top: 70px;
+  margin: 70px;
 }
 
-.naslov h1 {
+.forma h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #ffc0cb;
+  margin-top: 40px;
 }
 
-.prva {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 80px;
-}
-
-.slika1 img {
-  width: 300px;
+.forma {
+  background-color: #f5889a;
+  width: 500px;
+  height: 500px;
   border-radius: 20px;
 }
 
-.tekst1 {
-  width: 600px;
+.forma2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.forma2 p {
   font-size: larger;
 }
 
-.tekst1 h1 {
-  color: #f5889a;
-}
-
-.druga {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 80px;
-}
-
-.slika2 img {
-  width: 300px;
+input {
+  width: 400px;
+  border: none;
+  height: 50px;
   border-radius: 20px;
 }
 
-.tekst2 {
-  width: 600px;
-  font-size: larger;
-}
-
-.tekst2 h1 {
-  color: #f5889a;
-}
-
-.treca {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 80px;
-  margin-bottom: 80px;
-}
-
-.slika3 img {
-  width: 300px;
+button {
+  height: 40px;
+  width: 350px;
   border-radius: 20px;
+  border: none;
+  background-color: pink;
+  color: #666666;
+  font-weight: 600;
 }
 
-.tekst3 {
-  width: 600px;
-  font-size: larger;
-}
-
-.tekst3 h1 {
-  color: #f5889a;
+button:hover {
+  color: #ffc0cb;
+  background-color: #666666;
 }
 
 footer {
