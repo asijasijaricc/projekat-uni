@@ -64,7 +64,7 @@ hr {
 .forma {
   background-color: #f5889a;
   width: 500px;
-  height: 500px;
+  height: 950px;
   border-radius: 20px;
 }
 
@@ -85,6 +85,7 @@ input {
   border: none;
   height: 50px;
   border-radius: 20px;
+  padding: 14px;
 }
 
 button {
