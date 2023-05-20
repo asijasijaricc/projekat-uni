@@ -49,7 +49,7 @@ hr {
   align-items: center;
   justify-content: center;
   margin-top: 40px;
-  /* color: #666666; */
+  color: #ffc0cb;
 }
 
 .mesto {
@@ -76,6 +76,7 @@ hr {
   justify-content: center;
   align-items: center;
   margin-top: 60px;
+  color: #ffc0cb;
 }
 
 .mapa {
@@ -95,6 +96,7 @@ hr {
   justify-content: center;
   align-items: center;
   margin-top: 60px;
+  color: #ffc0cb;
 }
 
 .ja img {
