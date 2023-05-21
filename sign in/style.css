@@ -78,8 +78,6 @@ hr {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-  padding-left: 5%;
-  padding-right: 5%;
 }
 
 .forma2 p {
@@ -159,7 +157,10 @@ span {
 }
 
 .error {
-  width: 80%;
   padding: 5%;
   margin-left: 5%;
+}
+
+form {
+  width: 400px;
 }
