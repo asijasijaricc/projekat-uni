@@ -9,7 +9,7 @@
       src="https://kit.fontawesome.com/bf269cf735.js"
       crossorigin="anonymous"
     ></script>
-    <script src="./app.js" defer></script>
+    <script src="./main.js" defer></script>
     <title>asi beauty salon</title>
     <link rel="website icon" type="png" href="./logo asi.png" />
   </head>
@@ -40,7 +40,7 @@
               onblur="validateName()"
               placeholder="enter your name"
             />
-            <div id="nameError" style="color: #000000"></div>
+            <div class="error" id="nameError" style="color: #000000"></div>
             <br />
             <p>Your last name:</p>
             <br />
@@ -50,7 +50,7 @@
               onblur="validateSurname()"
               placeholder="enter your last name"
             />
-            <div id="surnameError" style="color: #000000"></div>
+            <div class="error" id="surnameError" style="color: #000000"></div>
             <br />
             <p>Your username:</p>
             <br />
@@ -61,7 +61,7 @@
               placeholder="enter your username"
               onblur="validateUsername()"
             />
-            <div id="usernameError" style="color: #000000"></div>
+            <div class="error" id="usernameError" style="color: #000000"></div>
             <br />
             <p>Your email address:</p>
             <br />
@@ -71,7 +71,7 @@
               onblur="validateEmail()"
               placeholder="enter your email"
             />
-            <div id="emailError" style="color: #000000"></div>
+            <div class="error" id="emailError" style="color: #000000"></div>
 
             <br />
             <p>Your password:</p>
@@ -92,7 +92,7 @@
             <br />
             <br />
             <button type="submit" id="registerBtn">
-              <a href="./poruka.html" target="_blank">Sign in</a>
+              <a href="./uspesno.html" target="_blank">Sign in</a>
             </button>
           </form>
         </div>

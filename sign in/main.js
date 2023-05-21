@@ -79,7 +79,7 @@ function enableSubmitButton() {
   const surnameError = document.getElementById("surnameError");
   const emailError = document.getElementById("emailError");
   const passwordError = document.getElementById("passwordError");
-  const submitBtn = document.getElementById("registruj");
+  const submitBtn = document.getElementById("registerBtn");
 
   if (
     usernameError.textContent === "" &&

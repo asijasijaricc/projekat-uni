@@ -64,7 +64,7 @@ hr {
 .forma {
   background-color: #f5889a;
   width: 600px;
-  height: 1100px;
+  height: 1300px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -78,6 +78,8 @@ hr {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .forma2 p {
@@ -154,4 +156,10 @@ footer img {
 
 span {
   color: #ffc0cb;
+}
+
+.error {
+  width: 80%;
+  padding: 5%;
+  margin-left: 5%;
 }
