@@ -9,6 +9,7 @@
       src="https://kit.fontawesome.com/bf269cf735.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./app.js" defer></script>
     <title>asi beauty salon</title>
     <link rel="website icon" type="png" href="./logo asi.png" />
   </head>
@@ -30,57 +31,70 @@
       <div class="forma">
         <h1>Join us !</h1>
         <div class="forma2">
-          <p>Your name:</p>
-          <br />
-          <input
-            type="text"
-            id="ime"
-            name="ime"
-            placeholder="enter your name"
-          />
-          <br />
-          <p>Your last name:</p>
-          <br />
-          <input
-            type="text"
-            id="prezime"
-            name="prezime"
-            placeholder="enter your last name"
-          />
-          <br />
-          <p>Your username:</p>
-          <br />
-          <input
-            type="text"
-            id="korisnicko"
-            name="korisnicko"
-            placeholder="enter your username"
-          />
-          <br />
-          <p>Your email address:</p>
-          <br />
-          <input
-            type="email"
-            id="mejl"
-            name="mejl"
-            placeholder="enter your email"
-          />
-          <br />
-          <p>Your password:</p>
-          <br />
-          <input
-            type="password"
-            id="lozinka"
-            name="lozinka"
-            placeholder="enter your password"
-          />
-          <br />
-          <p>Your birthday:</p>
-          <br />
-          <input type="date" id="ime" name="ime" />
-          <br />
-          <br />
-          <button>Sign in</button>
+          <form onsubmit="submit()">
+            <p>Your name:</p>
+            <br />
+            <input
+              type="text"
+              id="name"
+              onblur="validateName()"
+              placeholder="enter your name"
+            />
+            <div id="nameError" style="color: #000000"></div>
+            <br />
+            <p>Your last name:</p>
+            <br />
+            <input
+              type="text"
+              id="surname"
+              onblur="validateSurname()"
+              placeholder="enter your last name"
+            />
+            <div id="surnameError" style="color: #000000"></div>
+            <br />
+            <p>Your username:</p>
+            <br />
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="enter your username"
+              onblur="validateUsername()"
+            />
+            <div id="usernameError" style="color: #000000"></div>
+            <br />
+            <p>Your email address:</p>
+            <br />
+            <input
+              type="email"
+              id="email"
+              onblur="validateEmail()"
+              placeholder="enter your email"
+            />
+            <div id="emailError" style="color: #000000"></div>
+
+            <br />
+            <p>Your password:</p>
+            <br />
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="enter your password"
+              onblur="validatePassword()"
+            />
+            <div id="passwordError" style="color: rgb(0, 0, 0)"></div>
+
+            <br />
+            <p>Your birthday:</p>
+            <br />
+            <input type="date" id="ime" name="ime" />
+            <br />
+            <br />
+            <button type="submit" id="registerBtn">
+              <a href="./poruka.html" target="_blank">Sign in</a>
+            </button>
+          </form>
         </div>
       </div>
     </div>

@@ -58,14 +58,18 @@ hr {
   justify-content: center;
   align-items: center;
   color: #ffc0cb;
-  margin-top: 40px;
+  /* margin-top: 20px; */
 }
 
 .forma {
   background-color: #f5889a;
-  width: 500px;
-  height: 950px;
+  width: 600px;
+  height: 1100px;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .forma2 {
@@ -93,14 +97,20 @@ button {
   width: 350px;
   border-radius: 20px;
   border: none;
-  background-color: pink;
+  background-color: #ffc0cb;
   color: #666666;
   font-weight: 600;
+}
+
+button a {
+  text-decoration: none;
+  color: #959494;
 }
 
 button:hover {
   color: #ffc0cb;
   background-color: #666666;
+  cursor: pointer;
 }
 
 footer {
