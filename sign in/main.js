@@ -3,7 +3,7 @@ function validateUsername() {
   const usernameError = document.getElementById("usernameError");
   const username = usernameInput.value;
 
-  if (!/^@[A-Z][A-Za-z0-9.-]{3,11}[A-Za-z0-9]$/.test(username)) {
+  if (!/^@[A-Z][A-Za-z0-9]{3,11}[A-Za-z0-9]$/.test(username)) {
     usernameError.textContent =
       "Greška, korisničko ime mora sadržati @ na početku, imati najmanje 5, najviše 13 karaktera.";
     document.getElementById("registerBtn").disabled = true;
