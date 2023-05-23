@@ -1,3 +1,9 @@
-document.getElementsByClassName("boja")[0].style.color = "rgb(189, 47, 70)";
+var currentLocation = window.location.href;
+var navLinks = document.querySelectorAll("header ul li a");
 
-document.getElementsByClassName("boja")[0].style.padding = "9px";
+for (var i = 0; i < navLinks.length; i++) {
+  var link = navLinks[i];
+  if (link.href === currentLocation) {
+    link.classList.add("active");
+  }
+}
