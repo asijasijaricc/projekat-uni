@@ -94,13 +94,6 @@ function enableSubmitButton() {
   }
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-  const inputs = document.querySelectorAll("input");
-  inputs.forEach(function (input) {
-    input.addEventListener("blur", enableSubmitButton);
-  });
-});
-
 function submit() {
   window.location.href = "./uspesno.html";
 }
