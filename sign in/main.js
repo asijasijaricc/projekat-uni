@@ -33,7 +33,7 @@ function validateSurname() {
   const surnameError = document.getElementById("surnameError");
   const surname = surnameInput.value;
 
-  if (!/^[A-Z][a-zA-Z]{4,}ić$/.test(surname)) {
+  if (!/^[A-Z][a-z]{4,}ić$/.test(surname)) {
     surnameError.textContent =
       "Greška, prezime mora počinjati velikim početnim slovom, imati najmanje 5 karaktera i završavati na 'ić'.";
     document.getElementById("registerBtn").disabled = true;
